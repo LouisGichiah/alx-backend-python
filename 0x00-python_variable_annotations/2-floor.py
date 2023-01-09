@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
+""" Basic annotations concat """
 
-'''
-    returns a concatenated string
-'''
+import math
 
 
-def concat(str1: str, str2: str) -> str:
-    '''
-        returns a concatenated string
-    '''
-    return str1 + str2
+def floor(n: float) -> int:
+    """ Returns the floor of n"""
+    return math.floor(n)
